@@ -1,0 +1,32 @@
+{
+  "name": "myProjects-Api",
+  "version": "1.0.0",
+  "description": "Api made with a list of all of my projects used that I can use to map over and display projects in my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "server":"nodemon index.js",
+		"start":"node  index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandyBecker/myProjects-Api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandyBecker/myProjects-Api/issues"
+  },
+  "homepage": "https://github.com/BrandyBecker/myProjects-Api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "knex": "^0.21.6",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
